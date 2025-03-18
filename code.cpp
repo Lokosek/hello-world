@@ -5,9 +5,9 @@ int main()
 {
     int i,n;
    unsigned long int t1 = 0, t2 = 1, t3 = 0 ;
-   cout<<"Enter the number of terms: ";
+   cout<<"Wpisz liczbe n: ";
    cin>>n;
-    cout<<"Fibonacci Series: "<<endl;
+    cout<<"Ciag fibonaciego: "<<endl;
 
     for (i = 1; i <= n; ++i) {
        cout<<t1<< ","<<" ";
